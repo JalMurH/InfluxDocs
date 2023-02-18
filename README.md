@@ -42,3 +42,8 @@ ingresar al navegador http://localhost:8086
 ## Documantacion oficial de Influxdb para el uso de comando en el CLI:
 * ### [Probeer las credenciales](https://docs.influxdata.com/influxdb/v2.6/reference/cli/influx/#provide-required-authentication-credentials) Sepuede contar con diversas configuraciones en caso de tener multiples organizaciones o estar corrinedo InfluxDB OSS en otro puerto o un url porporcionado por un probeedor de computo en la nube.
 * ### [Crear una organizacion](https://docs.influxdata.com/influxdb/v2.6/organizations/create-org/) en caso de tener multiples organizaciones donde alguna no tiene acceso al bucket que pertenece a otra.
+* ### [Crear un bucket](https://docs.influxdata.com/influxdb/v2.6/reference/cli/influx/bucket/create/) Los bucket son la base de datos en la cual se va a suministrar la data.
+* ### [Crear un token](https://docs.influxdata.com/influxdb/cloud/security/tokens/create-token/)
+* ### [URLS Custom](https://docs.influxdata.com/influxdb/v2.6/reference/urls/)
+* ### [Cargar informacion al Bucket](https://docs.influxdata.com/influxdb/cloud/write-data/no-code/load-data/)
+* ### [Escribir infomacion en la base de datos](https://docs.influxdata.com/influxdb/v2.6/write-data/developer-tools/influx-cli/)
