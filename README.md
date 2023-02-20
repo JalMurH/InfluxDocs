@@ -17,6 +17,14 @@ Cambiamos (container_name) por el nombre que deseemos ponerle al contenedor. el 
 ```
 docker run --name container_name -p 8086:8086 -d influxdb
 ```
+Para hacer que la bases de datos manajadas con influx. Se guarden en almacenamiento a parte del contenedor de Docker. 
+```
+docker run --name nombre_del_contenedor -p 8086:8086 -v /ruta/a/mis/datos:/var/lib/influxdb -d influxdb
+```
+Para correr el Influx CLI en mi contenedor de Docker. El modificador (-it) ejecuta el contenedor con una terminal interactiva en este caso para el InfluxDB CLI.
+```
+docker exec -it nombre_del_contenedor influx
+```
 
 #### Linux
 Descargamos InfluxDB OSS (wget descarga los archivos a los que llaman binarios)
